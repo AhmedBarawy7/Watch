@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  padding: 15px 30px;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+.navbar-nav .nav-item .nav-link {
+  transition: all .6s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 0, 0, 0.507);
+  font-size: 18px;
+}
+
+header {
+  margin: 70px 0;
+  background-color: rgb(240, 240, 242);
+}
+
+header .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .row h1 {
+  font-size: 80px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: rgb(11, 28, 57);
+}
+
+header .container .row p {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: rgb(33, 32, 37);
+  padding: 30px 0;
+}
+
+header .container .row a {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background: rgb(74, 74, 75);
+  padding: 15px 29px;
+  background: linear-gradient(to left, rgb(74, 74, 75), rgb(74, 74, 75)) no-repeat;
+  background-size: 0%;
+  background-color: #ff2020;
+  transition: all .5s ease;
+
+}
+
+header .container .row a:hover {
+  background-size: 100%;
+}
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+  header div img {
+    display: none;
+  }
+
+  header {
+    padding: 50px;
+  }
+
+  header,
+  section {
+    text-align: center;
+  }
+  .sec-three p {
+    line-height: 1.8;
+  }
+
+  .choce-one div {
+    padding-bottom: 10px;
+    
+  }
+  .choce-one img {
+   width: 360px;
+  }
+  .foot .copy {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width:530px) and (max-width:768px) {
+  .choce-one img {
+   width: 480px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1200px) {
+  .choce{
+    text-align: center;
+  }
+  .foot .copy {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+  .choce img {
+    width: 490px;
+  }
+}
+
+
+
+
+/* .. */
+.sec-one .name h2 {
+
+  font-weight: 900;
+}
+.pro div {
+  padding: 10px;
+  text-align: center;
+}
+.pro .price {
+
+  font-weight: bolder;
+  color: #ff2020;
+}
+.pro img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+/*  */
+.sec-two img {
+  width: 100%;
+}
+.sec-two img:hover {
+
+}
+.show div {
+  padding: 10px;
+}
+.double div{
+  padding: 0;
+
+}
+.double .gallery1 {
+  margin-bottom: 25px;
+}
+/*  */
+.sec-three h2 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.hp p {
+  line-height: .8;
+  font-size: 14px;
+  font-weight: 900;
+  color: #8b8d8d;
+}
+.carousel div {
+  text-align: center;
+   font-weight: bold;
+   margin-bottom: 100px;
+   perspective: 300px;
+  
+}
+.carousel {
+  margin-top: 100px;
+}
+.carousel img {
+  border-bottom: #ff2020 solid 3px;
+  
+ 
+}
+
+.carousel img:hover {
+ transform: rotateX('90deg');
+}
+/*  */
+.choce-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.choce-one h2 {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: rgb(11, 28, 57);
+}
+
+.choce-one p {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: rgb(121, 119, 127);
+  padding: 30px 0;
+}
+
+.choce-one button {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 15px 29px;
+  background-color: #ff2020;
+
+
+}
+/*  */
+.lock {
+  background: #ff2020;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+
+}
+.lock div {
+width: 30%;
+}
+.lock h4 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+.lock p {
+  color: rgb(201, 194, 194);
+  font-size: 14px;
+  width: 70%;
+}
+.lock i {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding: 20px 0;
+}
+/*  */
+.time-zone {
+
+  margin: 150px 0 100px 0;
+
+}
+
+.time-zone h2 {
+  padding: 15px 0;
+}
+.time-zone p {
+  color: rgba(119, 115, 115, 0.594);
+}
+/*  */
+footer {
+  margin-bottom: 120px;
+}
+.foot .copy {
+  color:rgba(119, 115, 115, 0.594) ;
+}
+.foot span{
+   color: #ff2020;
+   font-weight: bold;
+}
+
+.foot i {
+  margin-left: 40px;
+}
